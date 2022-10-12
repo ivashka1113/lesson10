@@ -19,7 +19,7 @@ books[5].after(books[2]);
 
 body.style.backgroundImage = "url(./image/you-dont-know-js.jpg)";
 
-books[4].childNodes[1].childNodes[1].innerHTML = "Книга 3. this и Прототипы Объектов";
+books[4].querySelector('h2 a').innerHTML = "Книга 3. this и Прототипы Объектов";
 
 ad.remove();
 
@@ -34,4 +34,3 @@ chaptersFive[7].after(chaptersFive[5]);
 
 
 chaptersSix[8].insertAdjacentHTML("afterend", "<li><b>Глава 8: За пределами ES6</b></li>")
-console.dir(chaptersSix);
