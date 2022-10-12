@@ -9,10 +9,6 @@ const chaptersFive = books[5].querySelectorAll("li");
 const chaptersSix = books[2].querySelectorAll("li");
 
 
-
-const booksClone = books;
-
-
 books[0].before(books[1]);
 books[2].before(books[4]);
 books[5].after(books[2]);
